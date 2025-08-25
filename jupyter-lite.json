@@ -4,13 +4,13 @@
     "appName": "glue-lite demo",
     "disabledExtensions": [],
     "disabledPlugins": []
-  },
-  "litePluginSettings": {
-    "@jupyterlite/pyodide-kernel-extension:kernel": {
-      "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.25.1/full/pyodide.js",
-      "pyodidePackages": [
-        "pypi/glue_core-1.0.1.dev914+g1ef9f2790.d20250825-py3-none-any.whl"
-      ]
+    "litePluginSettings": {
+      "@jupyterlite/pyodide-kernel-extension:kernel": {
+        "pyodideUrl": "https://cdn.jsdelivr.net/pyodide/v0.25.1/full/pyodide.js",
+        "pyodidePackages": [
+          "pypi/glue_core-1.0.1.dev914+g1ef9f2790.d20250825-py3-none-any.whl"
+        ]
+      }
     }
   }
 }
