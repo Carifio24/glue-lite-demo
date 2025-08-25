@@ -13,6 +13,8 @@ Build the site:
 jupyter lite build --output-dir dist
 ```
 
+Move the wheel file into `dist/extensions/@jupyterlite/pyodide-kernel-extension/static/pypi`
+
 Serve it locally:
 
 ```bash
