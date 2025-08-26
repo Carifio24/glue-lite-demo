@@ -1,5 +1,3 @@
-cp dist/*.whl pypi/
-
 rm .jupyterlite.doit.db
 rm -rf .cache
 
