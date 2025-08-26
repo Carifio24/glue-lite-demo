@@ -3,10 +3,13 @@
   "jupyter-config-data": {
     "appName": "glue-lite demo",
     "disabledExtensions": [],
-    "disabledPlugins": []
+    "disabledPlugins": [],
     "litePluginSettings": {
       "@jupyterlite/pyodide-kernel-extension:kernel": {
       }
-    }
+    },
+    "pyodidePackages": [
+      "ipywidgets==7.*"
+    ]
   }
 }
