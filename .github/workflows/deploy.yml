@@ -21,10 +21,19 @@ jobs:
       - name: Install the dependencies
         run: |
           python -m pip install -r requirements.txt
+      - name: Do Pyodide setup
+        run: |
+          chmod +x pyodide.sh
+          ./pyodide.sh
+      - name: Build wheels
+        run: |
+          chmod +x wheels.sh
+          ./wheels.sh
       - name: Build the JupyterLite site
         run: |
           cp README.md content
-          jupyter lite build --contents content --output-dir dist
+          chmod +x build.sh
+          ./build.sh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
