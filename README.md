@@ -1,37 +1,9 @@
-# JupyterLite Demo
+# glupyter-lite
 
-[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://jupyterlite.github.io/demo)
+This repository contains a demo of running glue-jupyter inside of [JupyterLite](https://jupyterlite.readthedocs.io/en/stable/) - that is, completely in the browser.
 
-JupyterLite deployed as a static site to GitHub Pages, for demo purposes.
+This wasn't entirely trivial to set up - we have some dependencies with C extensions that we need to build wheels via pyodide/emscripten, and I had to make a few tweaks to glue-jupyter itself to get this to work. The branch that's being used is [here](https://github.com/Carifio24/glue-jupyter/tree/glue-lite). The notebook under `content/glue-lite.ipynb` has a short description of the technical changes that were necessary.
 
-## ✨ Try it in your browser ✨
+The creation of the necessary wheels and the site setup is handled via the Actions workflow and the various scripts in this repository. One item that isn't automated (yet) is that we need to update the name of the glue-jupyter wheel whenever the branch commit changes.
 
-➡️ **https://jupyterlite.github.io/demo**
-
-![github-pages](https://user-images.githubusercontent.com/591645/120649478-18258400-c47d-11eb-80e5-185e52ff2702.gif)
-
-## Requirements
-
-JupyterLite is being tested against modern web browsers:
-
-- Firefox 90+
-- Chromium 89+
-
-## Deploy your JupyterLite website on GitHub Pages
-
-Check out the guide on the JupyterLite documentation: https://jupyterlite.readthedocs.io/en/latest/quickstart/deploy.html
-
-## Further Information and Updates
-
-For more info, keep an eye on the JupyterLite documentation:
-
-- How-to Guides: https://jupyterlite.readthedocs.io/en/latest/howto/index.html
-- Reference: https://jupyterlite.readthedocs.io/en/latest/reference/index.html
-
-This template provides the Pyodide kernel (`jupyterlite-pyodide-kernel`), the JavaScript kernel (`jupyterlite-javascript-kernel`), and the p5 kernel (`jupyterlite-p5-kernel`), along with other
-optional utilities and extensions to make the JupyterLite experience more enjoyable. See the
-[`requirements.txt` file](requirements.txt) for a list of all the dependencies provided.
-
-For a template based on the Xeus kernel, see the [`jupyterlite/xeus-python-demo` repository](https://github.com/jupyterlite/xeus-python-demo)
-
-
+See the live demo [here](https://carifio24.github.io/glue-lite-demo/lab/index.html)
