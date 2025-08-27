@@ -19,9 +19,9 @@ pyodide build https://files.pythonhosted.org/packages/1b/2e/ef2697f963111cf1bc83
 pyodide build https://files.pythonhosted.org/packages/38/97/a2d667c98b8474f6b8294042488c1bd488681fb3cb4c3b9cdac1a9114287/glfw-2.9.0.tar.gz
 pyodide build https://files.pythonhosted.org/packages/e8/77/04a9b4b5caa6e6b3a2f633b15dec0996c1559fc26e9ba73bb3d1d844c874/fast_histogram-0.14.tar.gz
 pyodide build https://files.pythonhosted.org/packages/f1/8c/f5c1ddc7d35f0337b2698b52e60f558db3bf03e80ec0b13b8f8b9e2cf2e8/mpl_scatter_density-0.8.tar.gz
-pyodide build https://files.pythonhosted.org/packages/09/ce/1eb500eae19f4648281bb2186927bb062d2438c2e5093d1360391afd2f90/tornado-6.5.2.tar.gz
-pyodide build https://files.pythonhosted.org/packages/28/42/5deae312e638a3b33732f69929fc4952a2f68cc8b85a4a642f4e373446b4/glue_core-1.23.0.tar.gz
-pyodide build https://files.pythonhosted.org/packages/86/fc/11defa00c81179fa6c8443c1ec95d1566522680fef0004bf22b1eaad6310/glue_jupyter-0.24.0.tar.gz
+# pyodide build https://files.pythonhosted.org/packages/09/ce/1eb500eae19f4648281bb2186927bb062d2438c2e5093d1360391afd2f90/tornado-6.5.2.tar.gz
+# pyodide build https://files.pythonhosted.org/packages/28/42/5deae312e638a3b33732f69929fc4952a2f68cc8b85a4a642f4e373446b4/glue_core-1.23.0.tar.gz
+# pyodide build https://files.pythonhosted.org/packages/86/fc/11defa00c81179fa6c8443c1ec95d1566522680fef0004bf22b1eaad6310/glue_jupyter-0.24.0.tar.gz
 
 # Build our custom glue-jupyter wheel
 git clone https://github.com/Carifio24/glue-jupyter.git --branch glue-lite
