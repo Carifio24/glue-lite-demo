@@ -1,0 +1,43 @@
+{
+  "content": [
+    {
+      "content": null,
+      "created": "2025-08-27T16:16:09.347615Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-08-27T16:13:57.517878Z",
+      "mimetype": null,
+      "name": "glue-lite.ipynb",
+      "path": "glue-lite.ipynb",
+      "size": 5700,
+      "type": "notebook",
+      "writable": true
+    },
+    {
+      "content": null,
+      "created": "2025-08-27T16:16:09.346615Z",
+      "format": null,
+      "hash": null,
+      "hash_algorithm": null,
+      "last_modified": "2025-08-27T16:16:04.795585Z",
+      "mimetype": "text/markdown",
+      "name": "README.md",
+      "path": "README.md",
+      "size": 1462,
+      "type": "file",
+      "writable": true
+    }
+  ],
+  "created": "2025-08-27T16:16:09.347615Z",
+  "format": "json",
+  "hash": null,
+  "hash_algorithm": null,
+  "last_modified": "2025-08-27T16:16:09.347615Z",
+  "mimetype": null,
+  "name": "",
+  "path": "",
+  "size": null,
+  "type": "directory",
+  "writable": true
+}
