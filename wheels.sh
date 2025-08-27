@@ -23,6 +23,15 @@ pyodide build https://files.pythonhosted.org/packages/09/ce/1eb500eae19f4648281b
 pyodide build https://files.pythonhosted.org/packages/28/42/5deae312e638a3b33732f69929fc4952a2f68cc8b85a4a642f4e373446b4/glue_core-1.23.0.tar.gz
 pyodide build https://files.pythonhosted.org/packages/86/fc/11defa00c81179fa6c8443c1ec95d1566522680fef0004bf22b1eaad6310/glue_jupyter-0.24.0.tar.gz
 
+# Build our custom glue-jupyter wheel
+git clone git@github.com:Carifio24/glue-jupyter.git --branch glue-lite
+cd glue-jupyter
+pyodide build .
+cd ..
+cp glue-jupyter/dist/*.whl pypi/
+rm -rf glue-jupyter
+
+
 mkdir -p pypi
 cp dist/*.whl pypi/
 
