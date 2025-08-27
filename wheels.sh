@@ -28,11 +28,13 @@ git clone https://github.com/Carifio24/glue-jupyter.git --branch glue-lite
 cd glue-jupyter
 pyodide build .
 cd ..
-cp glue-jupyter/dist/*.whl pypi/
-rm -rf glue-jupyter
 
-
+# Create directory for wheels and move there
 mkdir -p pypi
+cp glue-jupyter/dist/*.whl pypi/
 cp dist/*.whl pypi/
+
+# Clean up glue-jupyter
+rm -rf glue-jupyter
 
 # rm -rf emsdk
