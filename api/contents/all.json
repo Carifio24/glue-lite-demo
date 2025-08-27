@@ -2,11 +2,11 @@
   "content": [
     {
       "content": null,
-      "created": "2025-08-27T16:36:02.719346Z",
+      "created": "2025-08-27T16:51:21.629778Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-08-27T16:33:49.159068Z",
+      "last_modified": "2025-08-27T16:49:16.217546Z",
       "mimetype": null,
       "name": "glue-lite.ipynb",
       "path": "glue-lite.ipynb",
@@ -16,11 +16,11 @@
     },
     {
       "content": null,
-      "created": "2025-08-27T16:36:02.718346Z",
+      "created": "2025-08-27T16:51:21.628778Z",
       "format": null,
       "hash": null,
       "hash_algorithm": null,
-      "last_modified": "2025-08-27T16:35:58.532331Z",
+      "last_modified": "2025-08-27T16:51:17.587767Z",
       "mimetype": "text/markdown",
       "name": "README.md",
       "path": "README.md",
@@ -29,11 +29,11 @@
       "writable": true
     }
   ],
-  "created": "2025-08-27T16:36:02.719346Z",
+  "created": "2025-08-27T16:51:21.629778Z",
   "format": "json",
   "hash": null,
   "hash_algorithm": null,
-  "last_modified": "2025-08-27T16:36:02.719346Z",
+  "last_modified": "2025-08-27T16:51:21.629778Z",
   "mimetype": null,
   "name": "",
   "path": "",
