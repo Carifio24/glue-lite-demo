@@ -49,3 +49,5 @@ bqplot-image-gl
 bqplot-gl
 ipympl
 ipython_genutils
+
+voici-core==0.9.0a0

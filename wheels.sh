@@ -8,6 +8,7 @@ if [ ! -d "emsdk" ]; then
   PYODIDE_EMSCRIPTEN_VERSION="3.1.58"
   ./emsdk install ${PYODIDE_EMSCRIPTEN_VERSION}
   ./emsdk activate ${PYODIDE_EMSCRIPTEN_VERSION}
+  sleep 2
   source ./emsdk_env.sh
   cd ..
 fi
