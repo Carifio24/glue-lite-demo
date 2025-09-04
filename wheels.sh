@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm -rf dist
 
 # Download emscripten
@@ -9,7 +11,7 @@ if [ ! -d "emsdk" ]; then
   ./emsdk install ${PYODIDE_EMSCRIPTEN_VERSION}
   ./emsdk activate ${PYODIDE_EMSCRIPTEN_VERSION}
   sleep 2
-  source ./emsdk_env.sh
+  source $(pwd)/emsdk_env.sh
   cd ..
 fi
 
