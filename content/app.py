@@ -24,11 +24,11 @@ class App(VuetifyTemplate):
         x = [randint(0, M) for _ in range(N)]
         y = [randint(0, M) for _ in range(N)]
         z = [randint(0, M) for _ in range(N)]
-        self.data = Data(label="Data", x=x, y=y, z=z)
+        self.glue_data = Data(label="Data", x=x, y=y, z=z)
         self.app.data_collection.append(self.data)
 
-        self.histogram = self.app.new_data_viewer(BqplotHistogramView, data=self.data)
-        self.scatter = self.app.new_data_viewer(BqplotScatterView, data=self.data)
+        self.histogram = self.app.new_data_viewer(BqplotHistogramView, data=self.glue_data)
+        self.scatter = self.app.new_data_viewer(BqplotScatterView, data=self.glue_data)
 
         super().__init__()
 
