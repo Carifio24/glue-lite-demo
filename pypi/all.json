@@ -5,19 +5,19 @@
         {
           "comment_text": "",
           "digests": {
-            "md5": "6a3c89307dcc8f08d9689aa80df36dd1",
-            "sha256": "4c323690689d0f6428c861129a921f4a69f25545e7385adbec6b2358dab6c3a3"
+            "md5": "cce0e31d2fb23c929712be675efb49ef",
+            "sha256": "ab0d26fdbfb7e51096fb2b35751e338b38b9ee5261544ae366f781b8cb1ea753"
           },
           "downloads": -1,
           "filename": "fast_histogram-0.14-cp39-abi3-pyodide_2024_0_wasm32.whl",
           "has_sig": false,
-          "md5_digest": "6a3c89307dcc8f08d9689aa80df36dd1",
+          "md5_digest": "cce0e31d2fb23c929712be675efb49ef",
           "packagetype": "bdist_wheel",
           "python_version": "py3",
           "requires_python": ">=3.9",
           "size": 16347,
-          "upload_time": "2025-08-27T19:23:47.978699Z",
-          "upload_time_iso_8601": "2025-08-27T19:23:47.978699Z",
+          "upload_time": "2025-09-10T05:24:56.355415Z",
+          "upload_time_iso_8601": "2025-09-10T05:24:56.355415Z",
           "url": "./fast_histogram-0.14-cp39-abi3-pyodide_2024_0_wasm32.whl",
           "yanked": false,
           "yanked_reason": null
@@ -31,19 +31,19 @@
         {
           "comment_text": "",
           "digests": {
-            "md5": "a19fc8a6b95e7d83caa0b86c4c08bf49",
-            "sha256": "8e4461cf9bf6161a266559069d795fa22233181e833c3ef1c34313ffb683db8b"
+            "md5": "5f03e56c1eca9164e7c4404c8c1ed4ef",
+            "sha256": "73f992ac8064258f9a8f733792b730641c1d427e0761213f09ae9a520f1aa288"
           },
           "downloads": -1,
           "filename": "glfw-2.9.0-py3-none-any.whl",
           "has_sig": false,
-          "md5_digest": "a19fc8a6b95e7d83caa0b86c4c08bf49",
+          "md5_digest": "5f03e56c1eca9164e7c4404c8c1ed4ef",
           "packagetype": "bdist_wheel",
           "python_version": "py3",
           "requires_python": null,
           "size": 28929,
-          "upload_time": "2025-08-27T19:23:47.979699Z",
-          "upload_time_iso_8601": "2025-08-27T19:23:47.979699Z",
+          "upload_time": "2025-09-10T05:24:56.355415Z",
+          "upload_time_iso_8601": "2025-09-10T05:24:56.355415Z",
           "url": "./glfw-2.9.0-py3-none-any.whl",
           "yanked": false,
           "yanked_reason": null
@@ -57,46 +57,20 @@
         {
           "comment_text": "",
           "digests": {
-            "md5": "f4b49e8103954531213eb38393af5892",
-            "sha256": "e35ac0921021e9e9ed226c7cd366794a0f6b801b0b66f26b19004afe440cb738"
+            "md5": "f93f27d0965b4e999d5c8cf4658328ad",
+            "sha256": "939be3077b9c874ff54a252df9c829e726d7fb9163ce3af1196cac440193eec7"
           },
           "downloads": -1,
           "filename": "glue_jupyter-0.10.2.dev520+gafac49aed-py3-none-any.whl",
           "has_sig": false,
-          "md5_digest": "f4b49e8103954531213eb38393af5892",
+          "md5_digest": "f93f27d0965b4e999d5c8cf4658328ad",
           "packagetype": "bdist_wheel",
           "python_version": "py3",
           "requires_python": ">=3.8",
           "size": 135418,
-          "upload_time": "2025-08-27T19:23:47.977699Z",
-          "upload_time_iso_8601": "2025-08-27T19:23:47.977699Z",
+          "upload_time": "2025-09-10T05:24:56.353415Z",
+          "upload_time_iso_8601": "2025-09-10T05:24:56.353415Z",
           "url": "./glue_jupyter-0.10.2.dev520+gafac49aed-py3-none-any.whl",
-          "yanked": false,
-          "yanked_reason": null
-        }
-      ]
-    }
-  },
-  "mpl-scatter-density": {
-    "releases": {
-      "0.8": [
-        {
-          "comment_text": "",
-          "digests": {
-            "md5": "04fcf9a0c53005effe263cbc0991cefb",
-            "sha256": "8ad976422b73773a482889f984e1a12309b305b4a6537ec6957f6b7cf266fc9a"
-          },
-          "downloads": -1,
-          "filename": "mpl_scatter_density-0.8-py3-none-any.whl",
-          "has_sig": false,
-          "md5_digest": "04fcf9a0c53005effe263cbc0991cefb",
-          "packagetype": "bdist_wheel",
-          "python_version": "py3",
-          "requires_python": ">=3.6",
-          "size": 749505,
-          "upload_time": "2025-08-27T19:23:47.979699Z",
-          "upload_time_iso_8601": "2025-08-27T19:23:47.979699Z",
-          "url": "./mpl_scatter_density-0.8-py3-none-any.whl",
           "yanked": false,
           "yanked_reason": null
         }
@@ -109,19 +83,19 @@
         {
           "comment_text": "",
           "digests": {
-            "md5": "1493cf9da21ad5c43a693a10a4c561f6",
-            "sha256": "6a3ad673d80ec36c55dbd4ab882bd26ecdd9d178c558f3b3012bdcb2f3da9c5a"
+            "md5": "4ec02ba5017b60982e7d6a575180bfce",
+            "sha256": "9ae26cd5c81ed3a7c3c33d0c633d12e1984e89b62816cf5d203e7d11e805a0e0"
           },
           "downloads": -1,
           "filename": "tornado-6.5.2-cp39-abi3-pyodide_2024_0_wasm32.whl",
           "has_sig": false,
-          "md5_digest": "1493cf9da21ad5c43a693a10a4c561f6",
+          "md5_digest": "4ec02ba5017b60982e7d6a575180bfce",
           "packagetype": "bdist_wheel",
           "python_version": "py3",
           "requires_python": ">= 3.9",
           "size": 437608,
-          "upload_time": "2025-08-27T19:23:47.979699Z",
-          "upload_time_iso_8601": "2025-08-27T19:23:47.979699Z",
+          "upload_time": "2025-09-10T05:24:56.355415Z",
+          "upload_time_iso_8601": "2025-09-10T05:24:56.355415Z",
           "url": "./tornado-6.5.2-cp39-abi3-pyodide_2024_0_wasm32.whl",
           "yanked": false,
           "yanked_reason": null
@@ -135,19 +109,19 @@
         {
           "comment_text": "",
           "digests": {
-            "md5": "682492fea8ab6539e10ae6bc992045d8",
-            "sha256": "4b5366157c6ba69c94678447d68a6362c5f1c9b2aebb84c09b244731c3af9786"
+            "md5": "aa3fbe55e3a0a19a3ea70894630e9ee7",
+            "sha256": "aa286891c6c65dbc2ebf7c343902e2e990fb5d32a249ef2bf85c18f34ff30daa"
           },
           "downloads": -1,
           "filename": "vispy-0.15.2-cp312-cp312-pyodide_2024_0_wasm32.whl",
           "has_sig": false,
-          "md5_digest": "682492fea8ab6539e10ae6bc992045d8",
+          "md5_digest": "aa3fbe55e3a0a19a3ea70894630e9ee7",
           "packagetype": "bdist_wheel",
           "python_version": "py3",
           "requires_python": ">=3.9",
-          "size": 1437442,
-          "upload_time": "2025-08-27T19:23:47.980699Z",
-          "upload_time_iso_8601": "2025-08-27T19:23:47.980699Z",
+          "size": 1437444,
+          "upload_time": "2025-09-10T05:24:56.356415Z",
+          "upload_time_iso_8601": "2025-09-10T05:24:56.356415Z",
           "url": "./vispy-0.15.2-cp312-cp312-pyodide_2024_0_wasm32.whl",
           "yanked": false,
           "yanked_reason": null
