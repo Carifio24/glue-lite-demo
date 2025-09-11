@@ -40,8 +40,8 @@ ipycanvas>=0.9.1
 # Python: ipyleaflet library for Jupyter notebooks (optional)
 ipyleaflet
 
-ipyvue
-ipyvuetify
+ipyvue==1.11.2
+ipyvuetify==1.11.2
 
 plotly>=6,<7
 bqplot
