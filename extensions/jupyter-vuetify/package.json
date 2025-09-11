@@ -1,6 +1,6 @@
 {
   "name": "jupyter-vuetify",
-  "version": "1.11.3",
+  "version": "1.11.2",
   "description": "Jupyter widgets based on vuetify UI components",
   "license": "MIT",
   "author": "Mario Buikhuizen, Maarten Breddels",
@@ -85,7 +85,7 @@
       }
     },
     "_build": {
-      "load": "static/remoteEntry.ec119e7976641f6ba2ec.js",
+      "load": "static/remoteEntry.36845109d7f05af7051b.js",
       "extension": "./extension"
     }
   }
