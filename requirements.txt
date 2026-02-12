@@ -1,0 +1,3 @@
+jupyterlite>=0.4.0
+jupyterlite_xeus>=3.0.0
+jupyter-server
